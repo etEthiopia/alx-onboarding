@@ -1,0 +1,8 @@
+numbers = INPUT("Enter the numbers: ")
+sumofsquares = 0
+
+FOR num IN numbers     // Loop through numbers one by one
+    sumofsquares = sumofsquares + (num * num)
+ENDLOOP
+
+OUTPUT sumofsquares
