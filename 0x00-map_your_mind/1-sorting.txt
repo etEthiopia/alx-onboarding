@@ -1,0 +1,24 @@
+a = INPUT("Enter first number: ")
+b = INPUT("Enter second number: ")
+c = INPUT("Enter third number: ")
+
+IF a > b THEN
+    temp = a
+    a = b
+    b = temp
+    // Swap a and b
+IF a > c THEN
+    temp = a
+    a = c
+    c = temp
+    // Swap a and c
+IF b > c THEN
+    temp = b
+    b = c
+    c = temp
+    // Swap b and c
+ENDIF
+
+OUTPUT a
+OUTPUT b
+OUTPUT c
