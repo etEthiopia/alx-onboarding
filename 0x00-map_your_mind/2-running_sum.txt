@@ -1,0 +1,12 @@
+sum = 0
+
+WHILE TRUE   // Always Running
+    num = INPUT("Enter a number: ")
+    IF num >= 0 THEN
+        sum = sum + num
+    ELSE
+        BREAK
+ENDLOOP
+
+OUTPUT sum
+   
